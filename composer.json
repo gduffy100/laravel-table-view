@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "gduffy100\\LaravelTableView\\": "src/"
+            "witty\\LaravelTableView\\": "src/"
         }
     },
     "require": {
@@ -18,7 +18,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "gduffy100\\LaravelTableView\\Tests\\": "tests/"
+            "witty\\LaravelTableView\\Tests\\": "tests/"
         }
     }
 }

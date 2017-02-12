@@ -39,10 +39,9 @@ class LaravelTableViewServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app['laravelTableView'] = $this->app->share(function($app)
-        {
-            return new LaravelTableView;
-        });
+        $container->singleton('LaravelTableView', function () {
+    return new LaravelTableView;
+	});
     }
 
 }
